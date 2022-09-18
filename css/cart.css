@@ -1,0 +1,162 @@
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+.cart table thead {
+  border: 1px solid var(--tertiary);
+  border-left: none;
+  border-right: none;
+}
+.cart table thead td {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.cart table img {
+  width: 30%;
+}
+.cart table td {
+  text-align: center;
+  padding: 10px;
+  /* color: var(--tertiary); */
+}
+.cart table input {
+  outline: none;
+  padding: 1px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+.cart table td:nth-child(1){
+    width: 100px;  
+}
+.cart table td:nth-child(2){
+    width: 150px;  
+}
+.cart table td:nth-child(3){
+    width: 200px;  
+}
+.cart table td:nth-child(4){
+    width: 150px;  
+} 
+.cart table td:nth-last-child(2) {
+  width: 200px;
+  text-align: center;
+}
+.cart table td:last-child(){
+    width: 200px;
+}
+.cart-add {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-add h4 {
+  margin-bottom: 20px;
+}
+.cart-add .coupon .input-wrapper {
+  width: 300px;
+  background: var(--secondary);
+  display: flex;
+  padding: 0.1rem;
+  border-radius: 4px;
+}
+.cart-add .coupon .input-wrapper input {
+  width: 100%;
+  border: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+  outline: none;
+
+  background: var(--pure);
+}
+.cart-add .input-wrapper .coupon input:focus {
+  outline: none;
+}
+.cart-add .coupon button {
+  background: var(--secondary);
+  color: var(--pure);
+  border: none;
+  outline: none;
+}
+.cart-add .coupon button:hover {
+   
+  box-shadow: 2px 2px 20px var(--pure);
+}
+.cart-add .totals h4 {
+  margin-bottom: 10px;
+}
+.cart-add .totals {
+  border: 1px solid var(--tertiary);
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+
+}
+
+.cart-add .totals table {
+
+  border-collapse: collapse;
+ 
+  width: 100%;
+}
+.cart-add .totals table td{
+    border: 1px solid var(--tertiary);
+    padding: 10px 50px;
+    width: 50%;
+   
+}
+.cart-add .totals table tfoot td {
+  font-weight: 700;
+}
+.cart-add .totals button{
+    background: var(--secondary);
+    color: var(--pure);
+    margin-top: 10px;
+}
+.cart-add .totals button:hover{
+    background: var(--pure);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+@media(max-width:820px){
+    .cart-add{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    } 
+    .cart-add .input-wrapper{
+        margin-bottom: 20px;
+       } 
+       .cart{
+        overflow-x: auto;
+       }
+}
+@media(max-width:418px){
+    .cart-add{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .cart-add .input-wrapper{
+     margin-bottom: 20px;
+    }
+    .cart-add .totals{
+        margin:  10px 50px;
+    }
+    .cart  {
+        margin: 0%;
+        padding: 0%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+
+
