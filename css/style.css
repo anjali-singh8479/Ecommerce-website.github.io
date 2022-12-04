@@ -245,7 +245,7 @@ section.banner {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url(/img/banner/b2.jpg);
+  background: url(img/banner/b2.jpg);
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -287,19 +287,19 @@ section.banner h2 span {
 }
 
 .banner1 {
-  background: url(/img/banner/b17.jpg);
+  background: url(img/banner/b17.jpg);
 }
 
 .banner2 {
-  background: url(/img/banner/b10.jpg);
+  background: url(img/banner/b10.jpg);
 }
 .banner3 {
-  background:linear-gradient(rgba(240, 235, 235, 0), rgba(81, 78, 78, 0.9)), url(/img/banner/b7.jpg);
+  background:linear-gradient(rgba(240, 235, 235, 0), rgba(81, 78, 78, 0.9)), url(img/banner/b7.jpg);
   background-position: center;
   height: 40vh;
 }
 .banner4 {
-  background:linear-gradient(rgba(7, 7, 7, 0), rgba(62, 61, 61, 0.9)), url(/img/banner/b4.jpg);
+  background:linear-gradient(rgba(7, 7, 7, 0), rgba(62, 61, 61, 0.9)), url(img/banner/b4.jpg);
   height: 40vh;
   background-position: center;
   background-size: cover;
